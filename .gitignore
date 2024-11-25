@@ -1,0 +1,41 @@
+# Entornos virtuales
+venv/
+*.env
+*.venv
+env/
+ENV/
+env.bak/
+venv.bak/
+
+# Archivos de configuración y credenciales sensibles
+*.env
+
+# Compilaciones de Python
+*.pyc
+*.pyo
+*.pyd
+__pycache__/
+*.so
+
+# Bases de datos locales
+db.sqlite3
+
+# Archivos de migración
+*/migrations/* 
+!*/migrations/__init__.py
+
+# Archivos generados
+staticfiles/
+media/
+
+# Configuración del editor/IDE
+.vscode/
+.idea/
+*.swp
+
+# Dependencias bloqueadas (pipenv)
+Pipfile.lock
+
+# Archivos de despliegue (si usas Docker o similares)
+*.log
+.dockerignore
